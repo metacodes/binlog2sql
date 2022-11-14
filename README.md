@@ -17,7 +17,7 @@ binlog2sql
 
 * 已测试环境
     * Python 2.7, 3.4+
-    * MySQL 5.6, 5.7
+    * MySQL 5.6, 5.7, 8.0.31
 
 
 安装
@@ -25,7 +25,7 @@ binlog2sql
 
 ```
 shell> git clone https://github.com/danfengcao/binlog2sql.git && cd binlog2sql
-shell> pip install -r requirements.txt
+shell> pip3 install -r requirements.txt
 ```
 git与pip的安装问题请自行搜索解决。
 
